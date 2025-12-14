@@ -49,7 +49,7 @@ public class School {
 
     @Override
     public String toString() {
-        return "School [name=" + name + ", courses=" + courses + "]";
+        return "School name=" + name + ", courses=" + courses + "";
     }
 
     
