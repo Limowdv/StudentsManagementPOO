@@ -1,18 +1,41 @@
-## Getting Started
+### 📘 Ejercicio POO — Sistema de Gestión de Estudiantes (versión EXACTA)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Tienes que diseñar 3 clases:
 
-## Folder Structure
+## 1. Clase Estudiante
+### Atributos:
 
-The workspace contains two folders by default, where:
+nombre
+id
+edad
+notas 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Métodos sugeridos:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+agregarNota(nota)
+calcularPromedio()
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 2. Clase Curso
+### Atributos:
 
-## Dependency Management
+nombre del curso
+capacidad máxima
+lista de estudiantes
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Métodos sugeridos:
+
+inscribirEstudiante(estudiante)
+obtenerPromedioGeneral()
+listarAprobados()
+
+## 3. Clase Escuela
+### Atributos:
+
+nombre de la escuela
+lista de cursos
+
+### Métodos sugeridos:
+
+agregarCurso(curso)
+buscarCursoPorNombre(nombre)
+obtenerTodosLosEstudiantes()
